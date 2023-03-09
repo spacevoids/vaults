@@ -1,0 +1,39 @@
+--[[
+
+BEST STREAMABLE SILENT AIM WITH ALL HITPARTS + AUTO DESYNC RESOLVER
+
+COMES WITH MEMORY SPOOFER TOO
+
+Made by bitey#0001 
+.gg/falseban
+.gg/closetcheat
+
+--]]
+
+getgenv().MemorySpoofer = {
+    enabled = true,
+    minimum = 640,
+    maximum = 830,
+}
+getgenv().SilentAim = {
+    Settings = {
+        Enabled = true,
+        AimPart = "Head", --// Doesn't matter, it's nearest bodypart you don't need to change this.
+        Prediction = 0.155,
+        WallCheck = true,
+    },
+    FOV = {
+        Enabled = true,
+        Size = 100,
+        Filled = false,
+        Thickness = 0.66,
+        Transparency = 0.5,
+        Color = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+    }
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/uhlpy/Streamable/main/Nearest%20body%20part"))()
+
+
+
+--btw this isnt "best" its "ass"

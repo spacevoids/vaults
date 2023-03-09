@@ -1,0 +1,39 @@
+-- smooth negativly impacted by high fov
+getgenv().Settings = {
+    AimlockKey = "e",
+    AimPart = "Head",
+    CheckIfJumpedpart = "UpperTorso",
+    AimRadius = 3,
+    Disableontargetdeath = true,
+    Disableonplayerdeath = false,
+    ThirdPerson = true,
+    FirstPerson = true,
+    Undergroundresolver = false,
+    DetectAntiLock = true,
+    AntiLockSpeedDetection = 70,
+    TeamCheck = false,
+    PredictMovement = true,
+    PredictionVelocity = 0.11137,
+    CheckIfJumped = true,
+    Smoothness = true,
+    Notificationmode = false,
+    SmoothnessAmount = 0.054
+}
+
+getgenv().Visual = {
+    Thickness = 3.4,
+    Transparency = 1,
+    Color = Color3.fromRGB(0, 255, 0),
+    FOV = false,
+    LINE = false
+}
+
+getgenv().Misc = {
+    PermKorblox = true,
+    PermHeadless = true
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel333/aimlock/main/aimlock"))()
+
+-- doesnt work anymore :(
